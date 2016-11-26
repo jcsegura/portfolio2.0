@@ -1,0 +1,381 @@
+title {display:none;}
+
+body{
+font-family:"helveticaNeue", "Helvetica Neue", Arial, sans-serif;
+font-size: 13px;
+color:#666;
+-webkit-text-size-adjust:100%;
+line-height:18.5px;
+display:block;
+margin:8px;
+}
+
+.body-wrapper {
+width:1248px;
+height:840px;
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+}
+
+
+.container{
+background:#F0F7F0;
+position:relative;
+width: 960px;
+/* if you want the backgrounf to go back to minty green all you have to do is add/insert: height:840px; here*/
+margin: 0 auto;
+padding:0;
+padding-left: -20px;
+padding-right:-20px;
+}
+
+
+.header-wrapper {
+position:relative;
+/*height:149px;
+width:960px;*/
+}
+
+
+.logo-wrapper{
+float:left;
+}
+
+.logo-wrapper{
+margin-top:50px;
+margin-left:10px;
+margin-bottom:33px;
+}
+
+
+
+
+/* this controls your logo wrapper on the left hand side corner the height and width
+.tall_405 {
+display:inline-block;
+margin-top:20px;
+margin-bottom: 20px;
+}
+*/
+
+.logo-wrapper img {
+display:inline-block;
+margin-top:10px;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+
+
+.social-wrapper {
+position:absolute;
+top:0px;
+right:0px;
+margin: 12px 10px;
+}
+
+
+.social-icon {
+background: #FCFCFC;
+float:right;
+text-align:center;
+margin-right:13px;
+cursor:pointer;
+opacity:0.35;
+}
+
+a {
+color:#171717;
+text-decoration:none;
+outline:0;
+}
+
+.social-icon img{
+display:inline-block;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+/* once you inserted the .navigation-wrapper the minty green color went away and the text below the image centered, so you changed the float to float:left;*/
+.navigation-wrapper {
+font-size:13px;
+text-align:center;
+float:right;
+margin-top:51px;
+}
+
+
+div#main-superfish-wrapper{
+  margin-left:10px
+}
+
+.sf-menu{
+  float:left;
+}
+.sf-menu{
+  line-height:1.0;
+}
+.sf-menu, .sf-menu * {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+ul{
+  margin-left:30px;
+  display:block;
+  -webkit-margin-before:1em;
+  -webkit-margin-after:1em;
+  -webkit-margin-start:0px;
+  -webkit-margin-end:0px;
+  -webkit-margin-start:40px;
+}
+
+ul.sf-menu li{
+  padding: 0px 0px 19px 0px
+}
+.sf-menu li{
+  float:left;
+  position:relative;
+}
+
+.sf-menu, .sf-menu * {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+li{
+  line-height:18px;
+  display:list-item;
+  text-align:-webkit-match-parent;
+}
+
+.sf-menu li:first-child a{
+  border-left:0px;
+}
+.navigation-wrapper .sf-menu li a{
+  color:#7d7d7d ;
+}
+
+.sf-menu li a{
+  padding: 0px 18px 0px 18px;
+  line-height: 24px;
+  text decoration: none;
+}
+
+.sf-menu a{
+  display:block;
+  position: relative;
+}
+
+.sf-menu, .sf-menu *{
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+
+ul.sf-menu li{
+  padding: 0px 0px 19px 0px;
+}
+
+.sf-menu li{
+  float:left;
+  position:relative;
+}
+.sf-menu, .sf-menu *{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+li{
+  line-height: 18px;
+}
+
+ul.sf-menu li:last-child{
+  border:0px;
+}
+ul.sf-menu li{
+  padding: 0px 0px 19px 0px;
+}
+.sf-menu li{
+  float:left;
+  position:relative;
+}
+li{
+  line-height: 18px;
+}
+.sf-menu{
+  float:left;
+}
+.sf-menu{
+  line-height:1.0;
+}
+ul {
+  margin-left:30px;
+}
+
+.navigation-wrapper {
+  font-size:13px;
+  text-align: center;
+  float:right;
+  margin-top:51px;
+}
+
+.responsive-menu-wrapper{
+  display:none;
+}
+
+.responsive-menu-wrapper select{
+  width:100%;
+  height:30px;
+  margin-bottom: 30px;
+}
+select{
+  width:220px;
+  padding:0;
+}
+option{
+  font-weight:normal;
+  display:block;
+  white-space:pre;
+  min-height:1.2em;
+  padding:0px 2px 1px;
+}
+
+br.clear{
+  clear:both;
+  height:0px;
+  display:block;
+}
+.clear{
+  clear:both;
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+
+.header-wrapper{
+  position:relative;
+}
+
+.content-wrapper{
+  position:relative;
+}
+.gdl-page-float-left{
+  float:left;
+}
+.gdl-page-item{
+  float:right;
+  padding-top:20px;
+  margin-bottom:10px;
+  width:960px;
+  float:left;
+}
+
+.container .sixteen.columns{
+  width:940px;
+}
+
+.column, .columns{
+  float:left;
+  display:inline;
+  margin: 0px 10px 20px 10px;
+  position:relative;
+}
+.mt0{
+  margin-top:0px;
+}
+.gdl-page-content{
+  margin-top:5px;
+}
+
+
+
+
+p{
+  margin:0 0 20px 0;
+}
+
+
+
+p img{
+  margin:0;
+}
+
+
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+
+/* these two give color to email link */
+p a {
+line-height:inherit;
+}
+
+a {
+color: #221f1f;
+text-decoration: none;
+outline:0;
+}
+
+
+
+
+.container:after{
+  content:"\0020";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility:hidden;
+}
+
+.footer-wrapper {
+  color:#888888;
+  background-color:#eaeaea;
+}
+
+.body-wrapper{
+
+}
+
+script{
+  display:none;
+}
+
+
+
+
+img.displayed {
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:auto;
+background-repeat:none;
+margin-top:auto;
+margin-bottom: 20px;
+}
+
+footer{
+color:#666;
+text-align: center
+}
+
+h1 {
+text-align: center;
+}
